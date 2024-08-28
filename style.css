@@ -156,3 +156,45 @@ img{
         padding: 0.6rem;
     }
 }
+@media (max-width: 400px) {
+    h1 {
+        font-size: 1.2rem;
+    }
+    .choices {
+        flex-direction: column;
+        gap: 0.3rem;
+        margin-top: 7px;
+    }
+
+    .image {
+        height: 120px;
+        width: 120px;
+    }
+
+    img {
+        height: 115px;
+        width: 115px;
+    }
+
+    .result {
+        gap: 0.8rem;
+        font-size: 1.1rem;
+    }
+    .seprator {
+        height: 50px;
+    }
+
+    #User-score, #computer-score, #draw {
+        font-size: 1.5rem;
+    }
+
+    .message-box {
+        margin-top: 2rem;
+    }
+
+    #message {
+        border-radius: 0.6rem;
+        font-size: 0.8rem;
+        padding: 0.6rem;
+    }
+}
