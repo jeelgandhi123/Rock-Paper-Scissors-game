@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 1rem;
+    font-size: 2rem;
+    height: 75px;
+    line-height: 75px;
+    display: inline;
+    padding: 1.1rem;
+}
+.image{
+    height: 158px;
+    width: 158px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image:hover{
+    border-radius: 50%;
+    background-color: black;
+    cursor: pointer;
+}
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    gap: 1.9rem;
+}
+.result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    font-size: 25px;
+    margin-top: 3rem;
+}
+.seprator{
+    height: 100px;
+    background-color: black;
+    width: 2px;
+}
+#User-score,#computer-score,#draw{
+    font-size: 35px;
+}
+.message-box{
+    margin-top: 5rem;
+}
+#message{
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+    font-size: 2rem;
+    display: inline;
+    padding: 1.1rem;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+        height: 80px;
+        line-height: 80px;
+    }
+
+    .choices {
+        gap: 0.4rem;
+        margin-top: 70px;
+    }
+
+    .image {
+        height: 150px;
+        width: 150px;
+    }
+
+    img {
+        height: 142px;
+        width: 142px;
+    }
+
+    .result {
+        margin-top: 70px;
+        gap: 1rem;
+        font-size: 1.7rem;
+    }
+    .seprator {
+        height: 75px;
+    }
+    #User-score, #computer-score, #draw {
+        font-size: 2rem;
+    }
+
+    .message-box {
+        margin-top: 70px;
+    }
+
+    #message {
+        border-radius: 0.8rem;
+        font-size: 1.3rem;
+        padding: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.2rem;
+    }
+    .choices {
+        flex-direction: column;
+        gap: 0.3rem;
+        margin-top: 7px;
+    }
+
+    .image {
+        height: 120px;
+        width: 120px;
+    }
+
+    img {
+        height: 115px;
+        width: 115px;
+    }
+
+    .result {
+        gap: 0.8rem;
+        font-size: 1.1rem;
+    }
+    .seprator {
+        height: 50px;
+    }
+
+    #User-score, #computer-score, #draw {
+        font-size: 1.5rem;
+    }
+
+    .message-box {
+        margin-top: 2rem;
+    }
+
+    #message {
+        border-radius: 0.6rem;
+        font-size: 1rem;
+        padding: 0.6rem;
+    }
+}
